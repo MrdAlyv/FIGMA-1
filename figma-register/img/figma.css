@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F5F2F0;
+}
+
+/* NAV */
+.nav {
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 130px;
+    width: 100%;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding-left: 48px;
+
+
+}
+
+.nav ul {
+    margin-right: 630px;
+}
+
+.nav ul li {
+    display: inline-block;
+
+}
+
+.nav img {
+    width: 130px;
+    height: 26px;
+}
+
+.nav input {
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #FFD2A4;
+    color: #1C1D28;
+}
+
+/* Main */
+.main {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.about>p:first-of-type {
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#A54E2B, #DC9853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 32px 0px 16px;
+}
+
+.about>h2:nth-of-type(1) {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 24px;
+}
+
+.quote>p {
+    color: gray;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.register {
+    background-color: #FFF;
+    height: 500px;
+    width: 35%;
+    padding: 40px;
+}
+
+.register>h4 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.icon1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 10px;
+}
+
+.icon1>img {
+    height: 24px;
+    width: 24px;
+}
+
+.icon2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 10px;
+}
+
+.icon2>img {
+    height: 24px;
+    width: 24px;
+}
+
+.form>p:first-of-type {
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    margin-bottom: 12px;
+}
+
+.form>input:first-of-type {
+    width: 100%;
+    border: none;
+}
+
+.form>p:nth-of-type(2) {
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    margin: 12px 0;
+}
+
+.form>input:nth-of-type(2) {
+    width: 100%;
+    border: none;
+}
+
+.form>button {
+    display: block;
+    margin-top: 32px;
+    background-color: #FFD2A4;
+    color: #0D0D0D;
+    padding: 24px 64px;
+    border-radius: 12px;
+    border: none;
+}
+
+/* SERMONS */
+.sermons>p:first-of-type {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 128px 0 64px;
+    text-transform: uppercase;
+}
+
+.grid-boxes {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 454px;
+    margin-bottom: 150px;
+
+}
+
+.grid {
+    background-color: #FFF;
+    padding: 25px;
+    margin: 20px;
+}
+
+.grid>p:first-child {
+    text-align: end;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+.grid>p:nth-child(2) {
+    text-align: end;
+}
+
+.grid>p:nth-child(3) {
+    background: -webkit-linear-gradient(#A54E2B, #DC9853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.grid>p:nth-child(4) {
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.grid>p:nth-child(5) {
+    margin-bottom: 16px;
+    line-height: 25px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.time>img {
+    width: 20px;
+    height: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.location>img {
+    width: 20px;
+    height: 20px;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: #161722;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 64px 80px;
+    margin: 10px 0px 0px;
+    color: white;
+
+}
+
+.column1 {
+    margin: 10px 0px;
+    color: white;
+    display: inline-block;
+}
+
+.column2 a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    margin: 15px;
+}
+
+.column3>p {
+    margin-bottom: 10px;
+}
+
+.column4>p {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.column4>input {
+    padding: 20px;
+    width: 70%;
+    background-color: #161722;
+    border: 1px solid #FFFFFF26 100%;
+    border-radius: 12px;
+    color: #FFF;
+}
+
+.column4>a {
+    text-decoration: none;
+    background-color: #FFD2A4;
+    padding: 20px 4px;
+    border-radius: 12px;
+    color: #0D0D0D;
+}
